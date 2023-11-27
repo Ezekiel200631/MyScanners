@@ -1,8 +1,9 @@
+import java.util.*;
 
 public class ScannersTimesThree
 {
 
-    public void run() {
+    public double nextDouble() {
         Scanner scanner = new Scanner(System.in);
         while (true) { 
             if (scanner.hasNext()) { 
