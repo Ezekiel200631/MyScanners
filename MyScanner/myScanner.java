@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MyScanner
+public class myScanner
 {
 
     public void run() {
@@ -14,7 +14,7 @@ public class MyScanner
     }
 
     public static void main(String[] args) {
-        MyScanner myScanner = new MyScanner();
+        myScanner myScanner = new myScanner();
         myScanner.run();
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MultiplyByThree {
+public class multiplyByThree {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
