@@ -5,7 +5,6 @@ public class MultiplyByThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter five integers on one line separated by spaces:");
         
         for (int i = 0; i < 5; i++) {
             if (scanner.hasNextInt()) {
