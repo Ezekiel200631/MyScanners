@@ -8,7 +8,7 @@ public class multiplyByThree {
                 int number = scanner.nextInt();
 
                 int result = number * 3;
-                System.out.println("" + (i + 1) + " " + result);
+                System.out.println(result);
             } else {
                 System.out.println("Invalid input. Please enter a valid integer.");
                 scanner.next(); 
