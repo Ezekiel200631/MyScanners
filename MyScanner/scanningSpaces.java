@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class scanningSpaces
 {
-
     public void run() {
         Scanner scanner = new Scanner(System.in);
         while (true) { 
@@ -12,7 +11,7 @@ public class scanningSpaces
             }
         }
     }
-
+    
     public static void main(String[] args) {
         scanningSpaces scanningSpaces = new scanningSpaces();
         scanningSpaces.run();
