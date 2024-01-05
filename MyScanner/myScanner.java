@@ -1,8 +1,6 @@
 import java.util.Scanner;
-
 public class myScanner
 {
-
     public void run() {
         Scanner scanner = new Scanner(System.in);
         while (true) { 
