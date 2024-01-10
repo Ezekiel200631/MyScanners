@@ -5,13 +5,11 @@ public class MyScannerSepteratedWithComma {
             System.out.println("Enter five words on one line separated by commas:");
             String inputLine = scanner.nextLine();
 
-            // Setting up the scanner to use a comma as the delimiter
             try (Scanner wordScanner = new Scanner(inputLine)) {
                 wordScanner.useDelimiter(",");
 
                 System.out.println("Output:");
 
-                // Print each word on a separate line
                 while (wordScanner.hasNext()) {
                     String word = wordScanner.next();
                     System.out.println(word);
