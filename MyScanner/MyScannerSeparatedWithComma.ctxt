@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MyScannerSeparatedWithComma
+comment1.params=
+comment1.target=void\ run()
+comment2.params=inputLine
+comment2.target=void\ processInputLine(java.lang.String)
+comment3.params=wordScanner
+comment3.target=void\ printOutput(java.util.Scanner)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
